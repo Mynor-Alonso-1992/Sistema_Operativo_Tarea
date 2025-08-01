@@ -4,6 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hola Mundo desde C#");
+        int a = 5;
+        int b = 3;
+        Console.WriteLine("La suma es: " + (a + b));
     }
 }
