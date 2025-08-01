@@ -4,8 +4,12 @@ class Program
 {
     static void Main(string[] args)
     {
-        int a = 5;
-        int b = 3;
+        Console.Write("Ingrese el primer número: ");
+        int a = int.Parse(Console.ReadLine());
+
+        Console.Write("Ingrese el segundo número: ");
+        int b = int.Parse(Console.ReadLine());
+
         Console.WriteLine("La suma es: " + (a + b));
     }
 }
